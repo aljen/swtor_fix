@@ -97,7 +97,7 @@ if [ $islaunchersettingsfixed = n ]; then
     cmd="sed 's|$sourcetextstring|$replacetextstring|g' $settingsbackuplocation > $settingslocation"
 
     echo
-    echo "It is strongly advised to allow bit runner to be turned off.  Unless you have a very good reason not to, please select y here.  Turn off bit runner? [Y/n]
+    echo "It is strongly advised to allow bit runner to be turned off".  Unless you have a very good reason not to, please select y here.  Turn off bit runner? [Y/n]
     read turnoffbitrunner
 
     if [ ! $turnoffbitrunner = n ]; then
